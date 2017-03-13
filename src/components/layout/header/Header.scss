@@ -1,0 +1,18 @@
+@import '../../../styles/variables.scss';
+
+.Header {
+
+  &__nav {
+    display: flex;
+
+    &-item {
+      display: inline-block;
+      border-radius: .4rem;
+      border: solid .1rem green;
+      padding: .5rem 1rem;
+      text-decoration: none;
+      font-family: $fontMain;
+      font-size: 1.6rem;
+    }
+  }
+}
