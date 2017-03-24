@@ -17,7 +17,7 @@ const initialState = {};
  *                          additional keys (like payload etc.)
  * @returns {Object} state - default or updated by action
  */
-export default function sampleReducer(state = initialState, action) {
+const sampleReducer = (state = initialState, action) => {
   switch (action.type) {
 
     case SAMPLE_ACTION:
@@ -29,4 +29,6 @@ export default function sampleReducer(state = initialState, action) {
     default:
       return state;
   }
-}
+};
+
+export default sampleReducer;
