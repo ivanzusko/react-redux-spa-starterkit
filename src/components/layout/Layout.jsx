@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 import * as actionCreators from "../../actions";
 import Header from './header/Header';
 
-class Layout extends Component {
+export class Layout extends Component {
   componentDidMount() {
     const someSampleInfoThatShoudBeDispatchedToReducer = {
       firstName: 'John',
